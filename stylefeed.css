@@ -1,0 +1,17 @@
+#header{
+    height: 60px;
+    position: fixed;
+    
+}
+#ig{
+    font-style: italic;
+    font-family: serif;
+    font-weight: bolder;
+    font-size: x-large;
+    margin-top: 15px;
+    margin-left: 200px;
+ 
+}
+#exampleInputEmail{
+    
+}
