@@ -4,12 +4,16 @@ body{
 
 #navbarr{
     height: 50px;
-    z-index: -1;
-    
+    z-index: 1;
+    background-color:white;
+    position: relative;
+   
     border-bottom: 1px;  
     border-bottom-style: solid;
     border-bottom-color: rgb(219,219,219);
+
 }
+
 
 
 #ig{
@@ -21,9 +25,9 @@ body{
 }
 #exampleInputEmail{
     width: 200px;
-    height: 25px;
+    height: 30px;
     float: right;
-    margin-top: -40px;
+    margin-top: -38px;
     margin-right: 42%;
     margin-bottom: px;
     background-color: rgb(250,250,250);
@@ -51,69 +55,327 @@ body{
 }
 
 #t2{
-    width:70px;
+    width:60px;
     display: flex;
     flex-direction: row;
-    height: 70px;
-    border-radius: 70px;
-    margin-left: 35px;
-    margin-top: 15px;
+    height: 60px;
+    border-radius: 60px;
+    margin-left: 25px;
+    margin-top: 20px;
     border-style: solid;
     border-width: 3px;
     border-color: rgb(199,46,144);
 }
 
-#pic2{
-    width: 60px;
-    height: 60px;
-    margin-top: 70px;
-    border-radius: 60px;
-    margin-left: 30px;
-}
 
-#mainbody{
-    background-color: rgb(250,250,250);
-    height: 1000px;
-    width: 1350px;
-   
+
+
+#pic2{
+    width: 45px;
+    height: 45px;
+    margin-top: 65px;
+    border-radius: 45px;
+  
 }
 
 #tboy{
-   margin-top: 30px;
-    font-size: large;
-    margin-left: 120px;
+    font-size: small;
+    margin-left: 80px;
+    margin-top: 10px;
+    
 }
 #folu{
-    margin-left: 120px;
-    color: rgb(162,162,162) ;
-    width: 200px;
-    font-weight: 400;
-    font-size: large;    
+    font-size: small;
+    margin-left: 80px;
+   color: rgb(162,162,162) ;
+   width: 200px;
+   font-weight: 400;
+   margin-top: -5px;
+}
+
+#profile{
+   margin-top: 70px;
+   
+}
+#pic5{
+    width: 30px;
+    height: 30px;
+    margin-top: 40px;
+    border-radius: 30px;
+    margin-left: 20px;
+    float: left;
+}
+
+#follow{
+    float: right;
+    margin-right: 245px;
+    margin-top: -30px;
+    font-size: smaller;
+    color: rgb(3,150,246);
+}
+
+#pic6{
+    width: 30px;
+    height: 30px;
+    margin-top: 85px;
+    border-radius: 30px;
+    margin-left: -190px;
+    float: left;
+}
+
+#pic7{
+    width: 30px;
+    height: 30px;
+    margin-left: 30px;
+    border-radius: 30px;
+    
+    float: left;
+}
+#mainbody{
+    margin-top: -90px;
+    background-color: rgb(250,250,250);
+    height: 5000px;
+    width: 1350px;
+    padding-top: 50px;   
 }
 
 
-#leftscroll{
-    float: left;
+#tbo{
+    margin-top: 35px;
+     font-size: small;
+     margin-left: 70px;
+   
+ }
+ #fol{
+     margin-left: 70px;
+     margin-top: -5px;
+     width: 200px;
+     font-weight: 400;
+     font-size: x-small; 
+     float: left;   
+ }
+
+
+
+ #first{
+    margin-left: 5px;
+ }
+
+ #bookmark{
+    float: right;
+    margin-right: 20px;
+    color: white;
+    border: black 1px;
+} 
+
+ #sec{
+    margin-top: 5px;
+    margin-left: 5px;
+ }
+
+ #bigdiv{
+     background-color: white;
+     border-style: solid;
+     border-color: rgb(219,219,219);
+     border-width: 1px;
+     width: 620px;
+     
+ }
+
+ 
+ #texts{
     margin-top: 50px;
+    margin-left: 5px;
+}
+
+ #third{
+    
+    margin-left: 5px;
+ }
+
+ #report{
+    margin-left: 600px;
+    margin-top: -30px;
+ }
+
+#leftscroll{
+    margin-bottom: 40px;
+    margin-top: 0px;
     margin-left: 200px;
-    width: 650px;
+    width: 620px;
     height: 100px;
     display: flex;
     flex-direction: row;
 }
 
+#lefts{
+    margin-top: 60px;
+    height: 100%;
+    width: 65%;
+    
+}
+
+#picboy{
+    width: 620px;
+    height: 650px;
+}
+
 #rightfixed{
     height: 300px;
     width: 500px;
+    position: fixed;
     float: right;
+    margin-left: 63%;
+    margin-top: -250px;
     
 }
 
 
+#sugg{
+    float: left;
+    margin-right: 50px;
+    
+    margin-left: 22px;
+    color: rgb(189,189,189);
+    font-weight: 600;
+    
+}
 
-#profile{
-    margin-top: 75px;
-    margin-right:1250px;  
+#see{
+    margin-top: 30px;
+    font-size: small;
+}
+
+
+#picdiv{
+    margin-top: -20px;
+    float: left;
+    width: 620px;
+}
+
+#picdiv2{
+    margin-top: -50px;
+    float: left;
+}
+
+#prof2{
+    margin-top: -63px;
+    width: 250px;
+      
+}
+
+#doc{
+    margin-top: 20px;
+}
+
+
+#tbo1{
+    margin-top: 50px;
+     font-size: small;
+     margin-left: 70px;
+ }
+ #fol1{
+     margin-left: 70px;
+     margin-top: -5px;
+     width: 200px;
+     font-weight: 400;
+     font-size: x-small;
+      color: rgb(189,189,189);      
+ }
+
+ 
+#picdiv3{
+    margin-top: -40px;
+    float: left;
+    margin-left: 220px;
+    width: 100px;
+}
+
+
+
+ #tbo2{
+   
+     font-size: small;
+     margin-left: 70px;
+ }
+ #fol2{
+    margin-left: 70px;
+     margin-top: -5px;
+     width: 400px;
+     font-weight: 400;
+     font-size: x-small; 
+     color: rgb(189,189,189);   
+ }
+
+ 
+#prof3{
+    margin-top: 0px;
+    width: 250px;
+      
+}
+
+#foot{
+    margin-top: 25px;
+}
+#foot1{
+    margin-top: 20px;
+}
+
+ul{
+    
+    color: rgb(214,214,214);
+    margin-left: -10px;
+
+}
+
+#block{
+   margin-right: 190px;
+   margin-top: 20px;
+}
+li{
+    
+    list-style: none;
+    float: left;
+    margin-right: 4px;
+    font-size: small;
+    font-weight: 600;
+    font-size: x-small;
+    
+   
+}
+
+#copyright{
+    color: rgb(214,214,214);
+    margin-top: 80px;
+    margin-left: 40px;
+    font-size: small;
+    margin-left: 30px;
+}
+
+#posts{
+    width: 620px;
+    margin-left: 200px;
+    height: 60px;
+    margin-top: 25px;
+}
+
+
+
+
+#posts2{
+    width: 620px;
+    height: 60px;
+    margin-top: 50px;
+}
+
+
+
+
+
+#prof{
+    margin-top: -65px;
+    width: 250px;
+      
 }
 
 span{
