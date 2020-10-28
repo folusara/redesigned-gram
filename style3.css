@@ -149,6 +149,13 @@ li{
    
 }
 
+#mainbody{
+    height: 1000px;
+    width: 1350px;
+    background-color: rgb(250,250,250);
+}
+
+
 #copyright{
     float: right;
     margin-top: 85px;

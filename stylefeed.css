@@ -34,9 +34,10 @@ body{
 }
 
 #pic1{
-    width: 15px;
-    height: 15px;
-    border-radius: 15px;
+    margin-top: 10px;
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
 }
 
 #pic2{
@@ -218,6 +219,7 @@ body{
 #picboy{
     width: 620px;
     height: 650px;
+    margin-top: -19px;
 }
 
 #rightfixed{
@@ -267,6 +269,8 @@ body{
 #doc{
     margin-top: 20px;
 }
+
+
 
 
 #tbo1{
@@ -325,6 +329,7 @@ ul{
     
     color: rgb(214,214,214);
     margin-left: -10px;
+    margin-bottom: 150px;
 
 }
 
@@ -340,8 +345,12 @@ li{
     font-size: small;
     font-weight: 600;
     font-size: x-small;
-    
+       
    
+}
+
+#copy{
+    margin-top: -90px;
 }
 
 #copyright{
@@ -392,6 +401,102 @@ span{
     margin-right: 220px;
 }
 #icon{
-    margin-top: 7px;
+    margin-top: 14px;
+    font-size: x-large;
+    margin-right: 30px;
 }
 
+#belowicon{
+    margin-top: px;
+    font-size: x-large;
+    margin-left: 3px;
+}
+
+#three{
+    margin-left: 10px;
+}
+
+#first{
+
+}
+
+#sec{
+    float: left;
+    margin-right: 15px;
+    margin-top: 1px;
+}
+
+#third{
+    margin-top: -10px;
+    font-size: x-small;
+    color: rgb(191,191,191);
+}
+
+#lord{
+    margin-left: 20px;
+    ;
+}
+
+@media only screen and (max-width:1000px) {
+    #rightfixed{
+        height: 300px;
+        width: 500px;
+        position: fixed;
+        float: right;
+        margin-left: 35%;
+        margin-top: 2000px;
+        display: none;
+    }
+
+    #ig{
+        font-family: 'Engagement', cursive;
+        font-weight: bold;
+        font-size: xx-large;
+        margin-top: 5px;
+        margin-left: 20px;
+    }
+
+    
+#leftscroll{
+    margin-bottom: 40px;
+    margin-top: 0px;
+    margin-left: 20px;
+    width: 620px;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+}
+
+
+#posts{
+    width: 620px;
+    margin-left: 20px;
+    height: 60px;
+    margin-top: 25px;
+}
+
+#right{
+    float: right;
+    margin-right: -100px;
+    margin-top: -60px;
+   
+}
+
+ul{
+    
+    color: rgb(214,214,214);
+    margin-left: 30px;
+    margin-top: 500px;
+
+}
+
+#copyright{
+    color: rgb(214,214,214);
+    margin-top: 520px;
+    margin-left: 40px;
+    font-size: small;
+    
+}
+
+
+}
