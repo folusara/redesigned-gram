@@ -3,37 +3,25 @@ body{
 }
 
 #box1{
-    margin-left: 52.5%;
-    margin-top: 0px;
-}
-
-
-#iphone{
-    float: left;
-    margin-left: 21%;
-    margin-top: -20px;
-}
-
-#box2{
-    margin-left: 52.5%;
-    margin-top: 5px;
-    
+    margin-left: 38.5%;
+    margin-top: 70px;
 }
 
 #box4{
     width: 360px;
-    height: 160px;
-    margin-left: 72.5%;
+    height: 60px;
+    margin-left: 38.5%;
     
 }
 
 #box3{
     width: 360px;
+    margin-top: 30px;
     margin-left: 38.5%;
 }
 
 #getapp{
-    margin-left: 52.5%;
+    margin-left: 38.5%;
 }
 
 #getapptext{
@@ -51,7 +39,10 @@ body{
     margin-top: -5px;
 }
 
-
+#box2{
+    margin-left: 38.5%;
+    height: 60px;
+}
 
 #signup{
     color: rgb(0,149,247);
@@ -84,11 +75,11 @@ body{
 
 #ig{
     font-style: italic;
-    font-family: 'cookie', cursive;
-    font-weight: bolder;
-    font-size: xxx-large;
-    margin-top: -100px;
+    margin-top: 30px;
+    font-weight: bold;
     text-align: center;
+    font-size: xxx-large;
+    font-family: 'cookie', cursive;
 }
 
 #fb2{
@@ -135,8 +126,8 @@ body{
 #leftline{
     background-color: rgb(219,219,219);
     float: left;
-    margin-left: 25px;
-    width: 100px;
+    margin-left: 10px;
+    width: 120px;
     height: 1px;
 
 }
@@ -149,8 +140,8 @@ body{
 #rightline{
     float: right;
     background-color: rgb(219,219,219);   
-    width: 100px;
-    margin-right: 40px;
+    width: 120px;
+    margin-right: 30px;
     height: 1px;  
 }
 
