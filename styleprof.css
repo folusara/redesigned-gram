@@ -2,7 +2,7 @@
     width: 200px;
     height: 25px;
     float: right;
-    margin-top: -33px;
+    margin-top: -38px;
     margin-right: 42%;
     margin-bottom: px;
     background-color: rgb(250,250,250);
@@ -15,7 +15,7 @@
 #mainbody{
     margin-top: -90px;
     background-color: rgb(250,250,250);
-    height: 5000px;
+    height: 800px;
     width: 1350px;
     padding-top: 50px;   
 }
@@ -187,7 +187,7 @@ buttom{
     font-family: 'Engagement', cursive;
     font-weight: bold;
     font-size: xx-large;
-    margin-top: 5px;
+    margin-top: -25px;
     margin-left: 200px;
 }
 
@@ -196,7 +196,7 @@ buttom{
     z-index: 1;
     background-color:white;
     position: relative;
-   
+   padding-top: 30px;
     border-bottom: 1px;  
     border-bottom-style: solid;
     border-bottom-color: rgb(219,219,219);
@@ -210,11 +210,104 @@ buttom{
     border-radius: 25px;
 }
 
+#set{
+    margin-top: -4px;
+    margin-right: 50px;
+  
+}
+
+
 #right{
     float: right;
     margin-left: auto;
     margin-top: -60px;
     margin-right: 220px;
+}
+#line{
+    width: 920px;
+    height: 1px;
+    background-color: rgb(219,219,219);
+    float: left;
+    margin-top: 200px ;
+    margin-left: -680px;
+}
+
+#postgrey{
+    background-color: black;
+    height: 1px;
+    width: 80px;
+    margin-left: 42%;
+}
+
+
+#po{
+    margin-top: 5px;
+    float: left;
+    margin-left: -20px;
+    font-size: small;
+}
+
+#pot{
+    margin-top: 5px;
+    float: left;
+    margin-left: -20px;
+    font-size: small;
+}
+
+#pos{
+    float: left;
+    margin-top: 220px;
+    margin-left: -505px;
+    font-size: small;
+}
+#pose{
+    float: left;
+    margin-top: 220px;
+    margin-left: -435px;
+    font-size: small;
+}
+
+#gridpic{
+    float: left;
+    margin-top: 60px;
+    margin-left: -460px;
+}
+
+#imggrid{
+    height: 280px;
+    width: 280px;
+    margin-right: 40px;
+    float: left;
+}
+
+ul{
+    float: left;
+    margin-top: 500px;
+    color: rgb(0,55,131);
+    margin-left: 100px;
+
+}
+li{
+    margin-top: 90px;
+    list-style: none;
+    float: left;
+    margin-right: 10px;
+    font-size: small;
+    font-weight: 600;
+   
+}
+
+#footer{
+    margin-top: 100px;
+}
+
+#copyright{
+    float: right;
+    margin-top: 85px;
+    color: rgb(152,142,145);
+    font-size: small;
+    font-weight: 500;
+    margin-right: 100px;
 }
 #icon{
     margin-top: 14px;

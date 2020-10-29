@@ -68,7 +68,10 @@ body{
     border-color: rgb(199,46,144);
 }
 
-
+a :hover{
+    text-decoration: none;
+    text-decoration: underline;
+}
 
 
 #pic2{
