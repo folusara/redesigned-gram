@@ -8,6 +8,10 @@
 body{
     background-color: rgb(248,249,250);
 }
+
+#box1{
+    margin-top: 50px;
+}
  
 
 #ig{
@@ -29,14 +33,14 @@ body{
 #baclog{
     text-align: center;
     color:rgb(82,82,82);
-    margin-top: 15px;
+    margin-top: 7px;
     font-weight: 500;
 }
 
 #underbox{
     width: 350px;
     margin-left: 38.5%;
-    
+    height: 40px;
 }
 #passinfo{
     color: rgb(163,163,163);
@@ -147,6 +151,19 @@ li{
     font-size: small;
     font-weight: 600;
    
+}
+
+a:link{
+    text-decoration: none;
+}
+a:visited{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+}
+a:active{
+    text-decoration: none;
 }
 
 #mainbody{
