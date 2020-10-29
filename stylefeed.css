@@ -6,7 +6,7 @@ body{
     height: 50px;
     z-index: 1;
     background-color:white;
-    position: relative;
+    
    padding-top: 5px;
    
    
@@ -394,8 +394,11 @@ li{
     width: 620px;
     margin-left: 200px;
     height: 60px;
-    margin-top: 15px;
-    margin-bottom: 20px;
+    
+}
+
+#demo{
+    margin-top: -11px;
 }
 
 
