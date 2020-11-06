@@ -5,6 +5,7 @@ body{
 #box1{
     margin-left: 52.5%;
     margin-top: 0px;
+    width: 380px;
 }
 
 
@@ -17,6 +18,7 @@ body{
 #box2{
     margin-left: 52.5%;
     margin-top: 5px;
+    width: 380px;
     
 }
 
@@ -162,6 +164,16 @@ body{
     
 }
 
+#firstlane{
+    display: none;
+}
+
+
+#secondlane{
+    display: none;
+}
+
+
 #OR{
     color: rgb(142,142,142);
     margin-left: 10px;
@@ -195,7 +207,7 @@ body{
 }
 
 #mainbody{
-    height: 800px;
+    height: 900px;
     width: 1350px;
     background-color: rgb(250,250,250);
     padding-top: 70px;
@@ -218,7 +230,7 @@ a:active{
     border-radius: 5px;
 }
 
-ul{
+#foot{
     margin-top: 100px;
     color: rgb(0,55,131);
     margin-left: 100px;
@@ -241,4 +253,79 @@ li{
     font-size: small;
     font-weight: 500;
     margin-right: 100px;
+}
+
+
+@media only screen and (max-width:700px){
+
+        #iphone{
+            display: none;
+        }
+        #box1{
+            
+                margin-left: 100px ;
+                margin-top: 50px;
+                width: 380px;
+        }
+    
+        #box2{
+            margin-left: 100px;
+            margin-top: 5px;
+            width: 380px;
+        }
+
+        #getapp{
+            margin-left: 138.5px;
+            width: 380px;
+        }
+
+        #getapptext{
+            margin-left:   108.5px;
+          width: 380px;
+        }
+        #mainbody{
+            height: 700px;
+            width: 580px;
+            padding-top: 1px;
+            background-color: rgb(250,250,250);
+        }
+    
+        #ig{
+            font-style: italic;
+            font-family: 'cookie', cursive;
+            font-weight: bolder;
+            font-size: xx-large;
+            margin-top: 12px;
+            margin-left: 50px;
+         
+        }
+        #firstlane{
+            margin-top: 100px;
+            margin-left: 60px;
+        }
+        
+        
+        #secondlane{
+            margin-top:10px;
+            list-style: none;
+            float: left;
+            margin-right: 10px;
+            font-size: small;
+            font-weight: 600;
+        
+        }
+
+        #foot{
+            display: none;
+        }
+    
+    
+        #copyright{
+            margin-top: 15px;
+            text-align: left;
+            margin-right:980px;
+            color: rgb(152,142,145);
+            font-size: small;
+            font-weight: 500;
+        }
 }
